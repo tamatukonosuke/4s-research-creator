@@ -20,7 +20,7 @@ forSurveyの画面作成を自動でおこないます。
 from forsurvey_operation import forSurveyOperation
 
 # クラス生成
-browser = forSurveyOperation('dev4s')
+browser = forSurveyOperation('アクセスしたいforSurveyの識別子')
 
 # 通常モード（ブラウザ起動）でログインして設定情報を取得 
 browser.get_forsurvey_setting_by_browser_mode('取得したいリサーチのグループ名', '取得したいリサーチNo')
